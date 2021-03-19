@@ -30,7 +30,7 @@ var local_date = localStorage.getItem("date");
 var d = new Date();
 var date = d.getDate();
 
-if (date == local_date) {
+if (date == local_date && local_reminder !== null) {
     
     alert(local_reminder);
     
@@ -53,7 +53,7 @@ var local_date1 = localStorage.getItem("date1");
 var d1 = new Date();
 var date1 = d.getDate();
 
-if (date1 == local_date1) {
+if (date1 == local_date1 && local_reminder1 !== null) {
     
     alert(local_reminder1);
     
@@ -76,7 +76,7 @@ var local_date1 = localStorage.getItem("date2");
 var d1 = new Date();
 var date1 = d.getDate();
 
-if (date1 == local_date1) {
+if (date1 == local_date1 && local_reminder1 !== null) {
     
     alert(local_reminder1);
     
@@ -117,6 +117,8 @@ clear.innerHTML = "Clear All Reminders";
 document.body.appendChild(clear);
 clear.onclick = function clear() {
 
+	localStorage.removeItem("rem");
+	localStorage.removeItem("rem1");
 	localStorage.removeItem("rem2");
 	alert("All Reminders Cleared!");
 
