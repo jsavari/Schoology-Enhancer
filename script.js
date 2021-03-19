@@ -11,7 +11,7 @@ theme.onclick = function dark() {
 
 	document.body.style.background = "#69c3ff";
 
-}
+};
 
 var rem = document.createElement("BUTTON");
 rem.innerHTML = "Add Reminder";
@@ -90,7 +90,7 @@ clear1.onclick = function clear1() {
 	localStorage.removeItem("rem");
 	alert("Reminder 1 Cleared!");
 
-}
+};
 
 var clear2 = document.createElement("BUTTON");
 clear2.innerHTML = "Clear Reminder2";
@@ -100,7 +100,7 @@ clear2.onclick = function clear2() {
 	localStorage.removeItem("rem1");
 	alert("Reminder 2 Cleared!");
 
-}
+};
 
 var clear3 = document.createElement("BUTTON");
 clear3.innerHTML = "Clear Reminder3";
@@ -110,7 +110,7 @@ clear3.onclick = function clear3() {
 	localStorage.removeItem("rem2");
 	alert("Reminder 3 Cleared!");
 
-}
+};
 
 var clear = document.createElement("BUTTON");
 clear.innerHTML = "Clear All Reminders";
@@ -120,4 +120,4 @@ clear.onclick = function clear() {
 	localStorage.removeItem("rem2");
 	alert("All Reminders Cleared!");
 
-}
+};
