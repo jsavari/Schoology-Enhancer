@@ -4,8 +4,9 @@ Author: X-Developer-Studios
 Version: 1.0
 */
 
+// Schoology Blue Theme Script
 var theme = document.createElement("BUTTON");
-theme.innerHTML = "Dark Theme";
+theme.innerHTML = "Blue Theme";
 document.body.appendChild(theme);
 theme.onclick = function dark() {
 
@@ -13,6 +14,7 @@ theme.onclick = function dark() {
 
 };
 
+// Schoology Reminder Script
 var rem = document.createElement("BUTTON");
 rem.innerHTML = "Add Reminder";
 document.body.appendChild(rem);
