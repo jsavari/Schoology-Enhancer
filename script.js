@@ -1,8 +1,9 @@
-/*
-Application: Schoology Enhancer
-Author: X-Developer-Studios
-Version: 1.0
-*/
+
+/***********************************************************************
+Application    : Schoology Enhancer
+Author         : X-Developer-Studios 
+Version        : 1.0
+***********************************************************************/
 
 // Schoology Blue Theme Script
 var theme = document.createElement("BUTTON");
