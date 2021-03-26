@@ -1,1 +1,1 @@
-# Schoology-Enhancer
+# Schoology Enhancer
