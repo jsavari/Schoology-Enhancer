@@ -15,6 +15,16 @@ theme.onclick = function dark() {
 
 };
 
+// Schoology Red Theme Script
+var r_theme = document.createElement("BUTTON");
+r_theme.innerHTML = "Red Theme";
+document.body.appendChild(r_theme);
+r_theme.onclick = function r_dark() {
+
+	document.body.style.background = "#ff6b6b";
+
+};
+
 // Schoology Reminder Script
 var rem = document.createElement("BUTTON");
 rem.innerHTML = "Add Reminder";
