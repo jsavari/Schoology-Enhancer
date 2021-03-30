@@ -24,6 +24,28 @@ r_theme.onclick = function r_dark() {
 
 };
 
+// Schoology Custom Theme Script
+var c_theme = document.createElement("BUTTON");
+c_theme.innerHTML = "Custom Theme";
+document.body.appendChild(c_theme);
+c_theme.onclick = function c_bg() {
+
+    var color = prompt("Background Color");
+    document.body.style.background = color;
+
+};
+
+// Schoology Clear Theme Script
+var w_theme = document.createElement("BUTTON");
+w_theme.innerHTML = "Clear Theme";
+document.body.appendChild(w_theme);
+w_theme.onclick = function w_dark() {
+
+	document.body.style.background = "white";
+
+};
+
+
 // Schoology Reminder Script
 var rem = document.createElement("BUTTON");
 rem.innerHTML = "Add Reminder";
@@ -148,6 +170,18 @@ r_theme.style.height = '50px';
 r_theme.style.background = '#ff6b6b'; 
 r_theme.style.color = 'White'; 
 r_theme.style.fontSize = '12px'; 
+
+c_theme.style.width = '50px'; 
+c_theme.style.height = '50px'; 
+c_theme.style.background = '#778899'; 
+c_theme.style.color = 'White'; 
+c_theme.style.fontSize = '12px'; 
+
+w_theme.style.width = '50px'; 
+w_theme.style.height = '50px'; 
+w_theme.style.background = '#778899'; 
+w_theme.style.color = 'White'; 
+w_theme.style.fontSize = '12px'; 
 
 rem.style.width = '75px'; 
 rem.style.height = '50px'; 
