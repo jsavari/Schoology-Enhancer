@@ -1,8 +1,7 @@
-
 /***********************************************************************
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
-Version        : 1.0
+Version        : 2.0
 ***********************************************************************/
 
 // Schoology Blue Theme Script
@@ -136,3 +135,58 @@ clear.onclick = function clear() {
 	alert("All Reminders Cleared!");
 
 };
+
+// Button Styling Script
+theme.style.width = '50px'; 
+theme.style.height = '50px'; 
+theme.style.background = '#69c3ff'; 
+theme.style.color = 'White'; 
+theme.style.fontSize = '12px'; 
+
+r_theme.style.width = '50px'; 
+r_theme.style.height = '50px'; 
+r_theme.style.background = '#ff6b6b'; 
+r_theme.style.color = 'White'; 
+r_theme.style.fontSize = '12px'; 
+
+rem.style.width = '75px'; 
+rem.style.height = '50px'; 
+rem.style.background = '#778899'; 
+rem.style.color = 'White'; 
+rem.style.fontSize = '12px'; 
+
+rem1.style.width = '75px'; 
+rem1.style.height = '50px'; 
+rem1.style.background = '#778899'; 
+rem1.style.color = 'White'; 
+rem1.style.fontSize = '12px'; 
+
+rem2.style.width = '75px'; 
+rem2.style.height = '50px'; 
+rem2.style.background = '#778899'; 
+rem2.style.color = 'White'; 
+rem2.style.fontSize = '12px'; 
+
+clear.style.width = '75px'; 
+clear.style.height = '50px'; 
+clear.style.background = '#778899'; 
+clear.style.color = 'White'; 
+clear.style.fontSize = '12px'; 
+
+clear1.style.width = '75px'; 
+clear1.style.height = '50px'; 
+clear1.style.background = '#778899'; 
+clear1.style.color = 'White'; 
+clear1.style.fontSize = '12px'; 
+
+clear2.style.width = '75px'; 
+clear2.style.height = '50px'; 
+clear2.style.background = '#778899'; 
+clear2.style.color = 'White'; 
+clear2.style.fontSize = '12px';
+
+clear3.style.width = '75px'; 
+clear3.style.height = '50px'; 
+clear3.style.background = '#778899'; 
+clear3.style.color = 'White'; 
+clear3.style.fontSize = '12px'; 
