@@ -173,7 +173,7 @@ r_theme.style.fontSize = '12px';
 
 c_theme.style.width = '50px'; 
 c_theme.style.height = '50px'; 
-c_theme.style.background = '#778899'; 
+c_theme.style.background = 'SeaGreen'; 
 c_theme.style.color = 'White'; 
 c_theme.style.fontSize = '12px'; 
 
