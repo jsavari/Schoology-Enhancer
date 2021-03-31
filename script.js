@@ -1,7 +1,7 @@
 /***********************************************************************
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
-Version        : 2.0
+Version        : 1.0
 ***********************************************************************/
 
 // Schoology Blue Theme Script
