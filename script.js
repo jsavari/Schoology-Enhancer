@@ -4,6 +4,9 @@ Author         : X-Developer-Studios
 Version        : 2.0
 ***********************************************************************/
 
+// Console Messages
+console.info("Schoology Enhancer v2.0");
+
 // Schoology Blue Theme Script
 var theme = document.createElement("BUTTON");
 theme.innerHTML = "Blue Theme";
