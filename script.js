@@ -218,6 +218,16 @@ cal.onclick = function dark() {
 
 };
 
+// Clever Portal 
+var portal = document.createElement("BUTTON");
+portal.innerHTML = "Clever Portal";
+document.body.appendChild(portal);
+portal.onclick = function dark() {
+
+	window.open("https://clever.com/in/henrico/student/portal");
+
+};
+
 // Button Styling Script
 theme.style.width = '50px'; 
 theme.style.height = '50px'; 
@@ -320,3 +330,9 @@ cal.style.height = '50px';
 cal.style.background = '#778899'; 
 cal.style.color = 'White'; 
 cal.style.fontSize = '12px'; 
+
+portal.style.width = '75px'; 
+portal.style.height = '50px'; 
+portal.style.background = '#778899'; 
+portal.style.color = 'White'; 
+portal.style.fontSize = '12px'; 
