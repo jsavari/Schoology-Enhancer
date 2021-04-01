@@ -24,6 +24,16 @@ r_theme.onclick = function r_dark() {
 
 };
 
+// Schoology Dark Theme Script
+var d_theme = document.createElement("BUTTON");
+d_theme.innerHTML = "Dark Theme";
+document.body.appendChild(d_theme);
+d_theme.onclick = function d_dark() {
+
+	document.body.style.background = "#202225";
+
+};
+
 // Schoology Custom Theme Script
 var c_theme = document.createElement("BUTTON");
 c_theme.innerHTML = "Custom Theme";
@@ -228,7 +238,7 @@ portal.onclick = function dark() {
 
 };
 
-// Button Styling Script
+// Styling Script
 theme.style.width = '50px'; 
 theme.style.height = '50px'; 
 theme.style.background = '#69c3ff'; 
@@ -246,6 +256,12 @@ c_theme.style.height = '50px';
 c_theme.style.background = 'SeaGreen'; 
 c_theme.style.color = 'White'; 
 c_theme.style.fontSize = '12px'; 
+
+d_theme.style.width = '50px'; 
+d_theme.style.height = '50px'; 
+d_theme.style.background = '#202225'; 
+d_theme.style.color = 'White'; 
+d_theme.style.fontSize = '12px'; 
 
 w_theme.style.width = '50px'; 
 w_theme.style.height = '50px'; 
