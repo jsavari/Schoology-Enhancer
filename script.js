@@ -1,7 +1,7 @@
 /***********************************************************************
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
-Version        : 1.0
+Version        : 2.0
 ***********************************************************************/
 
 // Schoology Blue Theme Script
@@ -158,6 +158,66 @@ clear.onclick = function clear() {
 
 };
 
+// Raider Hub 
+var rh = document.createElement("BUTTON");
+rh.innerHTML = "Raider Home";
+document.body.appendChild(rh);
+rh.onclick = function dark() {
+
+	window.open("https://sites.google.com/henrico.k12.va.us/raiderreadydashboard/home");
+
+};
+
+// PowerTeacher 
+var grade = document.createElement("BUTTON");
+grade.innerHTML = "Power Teacher";
+document.body.appendChild(grade);
+grade.onclick = function dark() {
+
+	window.open("https://sis.henrico.k12.va.us/teachers/pw.html");
+
+};
+
+// PowerSchool 
+var p_grade = document.createElement("BUTTON");
+p_grade.innerHTML = "Power School";
+document.body.appendChild(p_grade);
+p_grade.onclick = function dark() {
+
+	window.open("https://sis.henrico.k12.va.us/public/home.html");
+
+};
+
+// Gmail
+var mail = document.createElement("BUTTON");
+mail.innerHTML = "Google Email";
+document.body.appendChild(mail);
+mail.onclick = function dark() {
+
+	window.open("https://mail.google.com/mail/u/0/#inbox");
+
+};
+
+// Google Drive 
+var drive = document.createElement("BUTTON");
+drive.innerHTML = "Google Drive";
+document.body.appendChild(drive);
+drive.onclick = function dark() {
+
+	window.open("https://drive.google.com/drive/u/0/priority");
+
+};
+
+// Google Calendar 
+var cal = document.createElement("BUTTON");
+cal.innerHTML = "Google Calendar";
+document.body.appendChild(cal);
+cal.onclick = function dark() {
+
+	window.open("https://calendar.google.com/calendar/u/0/r/month");
+
+};
+
 // Button Styling Script
 theme.style.width = '50px'; 
 theme.style.height = '50px'; 
@@ -224,3 +284,39 @@ clear3.style.height = '50px';
 clear3.style.background = '#778899'; 
 clear3.style.color = 'White'; 
 clear3.style.fontSize = '12px'; 
+
+grade.style.width = '75px'; 
+grade.style.height = '50px'; 
+grade.style.background = '#778899'; 
+grade.style.color = 'White'; 
+grade.style.fontSize = '12px';
+
+rh.style.width = '75px'; 
+rh.style.height = '50px'; 
+rh.style.background = '#778899'; 
+rh.style.color = 'White'; 
+rh.style.fontSize = '12px'; 
+
+p_grade.style.width = '75px'; 
+p_grade.style.height = '50px'; 
+p_grade.style.background = '#778899'; 
+p_grade.style.color = 'White'; 
+p_grade.style.fontSize = '12px';
+
+mail.style.width = '75px'; 
+mail.style.height = '50px'; 
+mail.style.background = '#778899'; 
+mail.style.color = 'White'; 
+mail.style.fontSize = '12px'; 
+
+drive.style.width = '75px'; 
+drive.style.height = '50px'; 
+drive.style.background = '#778899'; 
+drive.style.color = 'White'; 
+drive.style.fontSize = '12px';
+
+cal.style.width = '75px'; 
+cal.style.height = '50px'; 
+cal.style.background = '#778899'; 
+cal.style.color = 'White'; 
+cal.style.fontSize = '12px'; 
