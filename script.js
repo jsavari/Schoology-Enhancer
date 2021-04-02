@@ -246,7 +246,7 @@ exec.onclick = function exec_cmd() {
 
 	var cmd = prompt("Command: ");
 	
-	if (cmd == "null") {
+	if (cmd == "crash") {
 	    
 	    document.body.innerHTML = "henrico.schoology.com crashed!";
 	    
