@@ -6,7 +6,11 @@ The Schoology Enhancer is a modern javascript applications which has the capabil
 
 ```Step 1:``` Install a local javascript injector, I personally recommend [Codify](https://chrome.google.com/webstore/detail/codify-the-code-adder/fdhkolbghmfidicmkaidnhpjcoeafojl?hl=en-GB)
 
+```Step 2:``` In the "Add Code" tab, copy and paste the code located in [Script.js](https://github.com/X-Developer-Studios/Schoology-Enhancer/blob/main/script.js)
 
+```Step 3:``` Make sure the Url Match contains the text "henrico.schoology.com"
+
+```Step 4:``` Click "Assign Code to Page" and you're done!
 
 ## Additional Application Information
 
