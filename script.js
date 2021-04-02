@@ -1,11 +1,8 @@
 /***********************************************************************
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
-Version        : 2.0
+Version        : 3.0
 ***********************************************************************/
-
-// Console Messages
-console.info("Schoology Enhancer v2.0");
 
 // Schoology Blue Theme Script
 var theme = document.createElement("BUTTON");
@@ -171,7 +168,7 @@ clear.onclick = function clear() {
 
 };
 
-// Raider Home 
+// Raider Hub 
 var rh = document.createElement("BUTTON");
 rh.innerHTML = "Raider Home";
 document.body.appendChild(rh);
@@ -238,6 +235,26 @@ document.body.appendChild(portal);
 portal.onclick = function dark() {
 
 	window.open("https://clever.com/in/henrico/student/portal");
+
+};
+
+// Cmd Exec Script
+var exec = document.createElement("BUTTON");
+exec.innerHTML = "Command Exec";
+document.body.appendChild(exec);
+exec.onclick = function exec_cmd() {
+
+	var cmd = prompt("Command: ");
+	
+	if (cmd == "null") {
+	    
+	    document.body.innerHTML = "henrico.schoology.com crashed!";
+	    
+	} else {
+	    
+	    alert("Invalid Cmd");
+	    
+	}
 
 };
 
@@ -354,4 +371,10 @@ portal.style.width = '75px';
 portal.style.height = '50px'; 
 portal.style.background = '#778899'; 
 portal.style.color = 'White'; 
-portal.style.fontSize = '12px'; 
+portal.style.fontSize = '12px';
+
+exec.style.width = '75px'; 
+exec.style.height = '50px'; 
+exec.style.background = '#778899'; 
+exec.style.color = 'White'; 
+exec.style.fontSize = '12px'; 
