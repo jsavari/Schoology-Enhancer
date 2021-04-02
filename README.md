@@ -4,7 +4,7 @@ The Schoology Enhancer is a modern javascript applications which has the capabil
 
 ## How to use Schoology Enhancer 
 
-```Step 1:``` Install a local javascript injector, I personally recommend [Codify]("https://chrome.google.com/webstore/detail/codify-the-code-adder/fdhkolbghmfidicmkaidnhpjcoeafojl?hl=en-GB") 
+```Step 1:``` Install a local javascript injector, I personally recommend [Codify](https://chrome.google.com/webstore/detail/codify-the-code-adder/fdhkolbghmfidicmkaidnhpjcoeafojl?hl=en-GB)
 
 ## Additional Application Information
 
