@@ -2,6 +2,8 @@
 
 The Schoology Enhancer is a modern javascript applications which has the capability of adding an external toolbar with additional features such as reminders and custom background themes. A chrome extension will be released soon. 
 
+## Additional Application Information
+
 ```Application: Schoology Enhancer```
 
 ```Author: X-Developer-Studios```
@@ -11,4 +13,8 @@ The Schoology Enhancer is a modern javascript applications which has the capabil
 ```License: MIT```
 
 ## Future Enhancements
+
+v3.0 - Command Exec
+
+
 
