@@ -171,7 +171,7 @@ clear.onclick = function clear() {
 
 };
 
-// Raider Hub 
+// Raider Home 
 var rh = document.createElement("BUTTON");
 rh.innerHTML = "Raider Home";
 document.body.appendChild(rh);
