@@ -25,3 +25,11 @@ The Schoology Enhancer is a modern javascript applications which has the capabil
 
 ```License: MIT```
 
+## New Features
+
+```Cmd Exec```
+
+## Cmd Exec Commands
+
+```crash``` - Crashes Schoology
+
