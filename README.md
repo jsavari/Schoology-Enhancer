@@ -37,6 +37,7 @@ The Schoology Enhancer is a modern javascript applications which has the capabil
 
 ```redit``` - Doesn't allow content to be edited on Schoology
 
-## Suggestions
+## Coding Community
 
-Have any suggestions? Want to join our official Coding Community hangout? [Click Here!](https://hangouts.google.com/group/etNDa7hTWieFsTFF8)
+Interested in joining our developer team? 
+[Click Here!](https://hangouts.google.com/group/etNDa7hTWieFsTFF8)
