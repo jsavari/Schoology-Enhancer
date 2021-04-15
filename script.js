@@ -1,7 +1,7 @@
 /***********************************************************************
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
-Version        : 3.0
+Version        : 3.1
 ***********************************************************************/
 
 // Schoology Blue Theme Script
@@ -250,9 +250,13 @@ exec.onclick = function exec_cmd() {
 	    
 	    document.body.innerHTML = "henrico.schoology.com crashed!";
 	    
-	} else {
+	} else if (cmd == "edit") {
 	    
-	    alert("Invalid Cmd");
+	    document.body.contentEditable = true;
+	    
+	} else if (cmd == "redit") {
+	    
+	    document.body.contentEditable = false;
 	    
 	}
 
