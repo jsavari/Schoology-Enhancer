@@ -32,4 +32,6 @@ The Schoology Enhancer is a modern javascript applications which has the capabil
 ## Cmd Exec Commands
 
 ```crash``` - Crashes Schoology
+```edit``` - Allows content to be edited on Schoology
+```redit``` - Doesn't allow content to be edited on Schoology
 
