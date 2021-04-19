@@ -37,6 +37,10 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 
 ```redit``` - Doesn't allow content to be edited on Schoology
 
+```rr``` - Rickrolls the user
+
+```src``` - Displays source code of Schoology Enhancer
+
 ## Coding Community
 
 Interested in joining our developer team? 
