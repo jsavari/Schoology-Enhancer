@@ -1,8 +1,43 @@
 /***********************************************************************
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
-Version        : 3.1
+Version        : 4.0
 ***********************************************************************/
+
+// User Form
+var f_filled = localStorage.getItem("form_filled");
+
+if (f_filled === null) {
+  
+  var fname, lname, role, age, form;
+
+  alert("Schoology Enhancer v3.1 User Form");
+  alert("Please insert authentic information and data will NOT be used in any other way than comparing data analytics");
+
+  var fname = prompt("First Name");
+  var lname = prompt("Last Name");
+  var age = prompt("Age:");
+  var role = prompt("Professtion (ex. student, teacher, etc.)")
+  form = true;
+
+  var data, u_fname, u_lname, u_age, u_role;
+  data = { first_name: fname, last_name: lname, user_age: age, user_role: role };
+  u_fname = data['first_name'];
+  u_lname = data['last_name'];
+  u_age = data['user_age'];
+  u_role = data['user_role'];
+
+  localStorage.setItem("usr_fname", u_fname);
+  localStorage.setItem("usr_lname", u_lname);
+  localStorage.setItem("usr_age", u_age);
+  localStorage.setItem("usr_role", u_role);
+  localStorage.setItem("form_filled", form);
+  
+} else if (f_filled === true) {
+  
+  
+  
+}
 
 // Schoology Blue Theme Script
 var theme = document.createElement("BUTTON");
@@ -382,3 +417,4 @@ exec.style.height = '50px';
 exec.style.background = '#778899'; 
 exec.style.color = 'White'; 
 exec.style.fontSize = '12px'; 
+
