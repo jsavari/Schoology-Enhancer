@@ -1,7 +1,7 @@
 /***********************************************************************
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
-Version        : 4.1
+Version        : 4.2
 ***********************************************************************/
 
 // User Form
@@ -296,6 +296,10 @@ exec.onclick = function exec_cmd() {
 	} else if (cmd == "rr") {
 	    
 	    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+	    
+	} else if (cmd == "src") {
+	    
+	    window.open("https://github.com/X-Developer-Studios/Schoology-Enhancer");
 	    
 	}
 
