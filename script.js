@@ -1,7 +1,7 @@
 /***********************************************************************
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
-Version        : 4.4
+Version        : 4.5
 ***********************************************************************/
 
 // User Form
@@ -11,7 +11,7 @@ if (f_filled === null) {
   
   var fname, lname, role, age, form;
 
-  alert("Schoology Enhancer v4.4 User Form");
+  alert("Schoology Enhancer v4.5 User Form");
   alert("Please insert authentic information and data will NOT be used in any other way than comparing data analytics");
 
   var fname = prompt("First Name");
@@ -303,7 +303,19 @@ exec.onclick = function exec_cmd() {
 	    
 	} else if (cmd == "cver") {
 	    
-	    alert("Schoology Enhancer v4.4");
+	    alert("Schoology Enhancer v4.5");
+	    
+	} else if (cmd == "fd") {
+	    
+	    var userf = localStorage.getItem("usr_fname");
+	    var userl = localStorage.getItem("usr_lname");
+	    var user_age = localStorage.getItem("usr_age");
+	    var user_role = localStorage.getItem("usr_role");
+	    
+	    alert("First Name: " + userf);
+	    alert("Last Name: " + userl);
+	    alert("Age: " + user_age);
+	    alert("Profession: " + user_role);
 	    
 	}
 
