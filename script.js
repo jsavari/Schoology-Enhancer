@@ -1,7 +1,9 @@
 /***********************************************************************
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
+Lisence        : MIT
 Version        : 4.5
+Updated        : 4/20/2021
 ***********************************************************************/
 
 // User Form
