@@ -1,7 +1,7 @@
 /***********************************************************************
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
-Version        : 4.2
+Version        : 4.3
 ***********************************************************************/
 
 // User Form
@@ -11,7 +11,7 @@ if (f_filled === null) {
   
   var fname, lname, role, age, form;
 
-  alert("Schoology Enhancer v4.2 User Form");
+  alert("Schoology Enhancer v4.3 User Form");
   alert("Please insert authentic information and data will NOT be used in any other way than comparing data analytics");
 
   var fname = prompt("First Name");
@@ -300,6 +300,10 @@ exec.onclick = function exec_cmd() {
 	} else if (cmd == "src") {
 	    
 	    window.open("https://github.com/X-Developer-Studios/Schoology-Enhancer");
+	    
+	} else if (cmd == "ver") {
+	    
+	    alert("Schoology Enhancer v4.3");
 	    
 	}
 
