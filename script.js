@@ -6,6 +6,9 @@ Version        : 5.0
 Updated        : 4/21/2021
 ***********************************************************************/
 
+// Background Presets
+document.body.style.background = "#36393F";
+
 // User Form
 var f_filled = localStorage.getItem("form_filled");
 
@@ -278,90 +281,90 @@ exec.onclick = function exec_cmd() {
 // Styling Script
 rem.style.width = '75px'; 
 rem.style.height = '50px'; 
-rem.style.background = '#778899'; 
+rem.style.background = '#2F3136'; 
 rem.style.color = 'White'; 
 rem.style.fontSize = '12px'; 
 
 rem1.style.width = '75px'; 
 rem1.style.height = '50px'; 
-rem1.style.background = '#778899'; 
+rem1.style.background = '#2F3136'; 
 rem1.style.color = 'White'; 
 rem1.style.fontSize = '12px'; 
 
 rem2.style.width = '75px'; 
 rem2.style.height = '50px'; 
-rem2.style.background = '#778899'; 
+rem2.style.background = '#2F3136'; 
 rem2.style.color = 'White'; 
 rem2.style.fontSize = '12px'; 
 
 clear.style.width = '75px'; 
 clear.style.height = '50px'; 
-clear.style.background = '#778899'; 
+clear.style.background = '#2F3136'; 
 clear.style.color = 'White'; 
 clear.style.fontSize = '12px'; 
 
 clear1.style.width = '75px'; 
 clear1.style.height = '50px'; 
-clear1.style.background = '#778899'; 
+clear1.style.background = '#2F3136'; 
 clear1.style.color = 'White'; 
 clear1.style.fontSize = '12px'; 
 
 clear2.style.width = '75px'; 
 clear2.style.height = '50px'; 
-clear2.style.background = '#778899'; 
+clear2.style.background = '#2F3136'; 
 clear2.style.color = 'White'; 
 clear2.style.fontSize = '12px';
 
 clear3.style.width = '75px'; 
 clear3.style.height = '50px'; 
-clear3.style.background = '#778899'; 
+clear3.style.background = '#2F3136'; 
 clear3.style.color = 'White'; 
 clear3.style.fontSize = '12px'; 
 
 grade.style.width = '75px'; 
 grade.style.height = '50px'; 
-grade.style.background = '#778899'; 
+grade.style.background = '#2F3136'; 
 grade.style.color = 'White'; 
 grade.style.fontSize = '12px';
 
 rh.style.width = '75px'; 
 rh.style.height = '50px'; 
-rh.style.background = '#778899'; 
+rh.style.background = '#2F3136'; 
 rh.style.color = 'White'; 
 rh.style.fontSize = '12px'; 
 
 p_grade.style.width = '75px'; 
 p_grade.style.height = '50px'; 
-p_grade.style.background = '#778899'; 
+p_grade.style.background = '#2F3136'; 
 p_grade.style.color = 'White'; 
 p_grade.style.fontSize = '12px';
 
 mail.style.width = '75px'; 
 mail.style.height = '50px'; 
-mail.style.background = '#778899'; 
+mail.style.background = '#2F3136'; 
 mail.style.color = 'White'; 
 mail.style.fontSize = '12px'; 
 
 drive.style.width = '75px'; 
 drive.style.height = '50px'; 
-drive.style.background = '#778899'; 
+drive.style.background = '#2F3136'; 
 drive.style.color = 'White'; 
 drive.style.fontSize = '12px';
 
 cal.style.width = '75px'; 
 cal.style.height = '50px'; 
-cal.style.background = '#778899'; 
+cal.style.background = '#2F3136'; 
 cal.style.color = 'White'; 
 cal.style.fontSize = '12px'; 
 
 portal.style.width = '75px'; 
 portal.style.height = '50px'; 
-portal.style.background = '#778899'; 
+portal.style.background = '#2F3136'; 
 portal.style.color = 'White'; 
 portal.style.fontSize = '12px';
 
 exec.style.width = '75px'; 
 exec.style.height = '50px'; 
-exec.style.background = '#778899'; 
+exec.style.background = '#2F3136'; 
 exec.style.color = 'White'; 
 exec.style.fontSize = '12px'; 
