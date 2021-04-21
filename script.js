@@ -368,4 +368,3 @@ exec.style.height = '50px';
 exec.style.background = '#2F3136'; 
 exec.style.color = 'White'; 
 exec.style.fontSize = '12px'; 
-
