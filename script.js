@@ -2,8 +2,8 @@
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
 Lisence        : MIT
-Version        : 4.5
-Updated        : 4/20/2021
+Version        : 4.6
+Updated        : 4/21/2021
 ***********************************************************************/
 
 // User Form
@@ -13,7 +13,7 @@ if (f_filled === null) {
   
   var fname, lname, role, age, form;
 
-  alert("Schoology Enhancer v4.5 User Form");
+  alert("Schoology Enhancer v4.6 User Form");
   alert("Please insert authentic information and data will NOT be used in any other way than comparing data analytics");
 
   var fname = prompt("First Name");
@@ -318,6 +318,10 @@ exec.onclick = function exec_cmd() {
 	    alert("Last Name: " + userl);
 	    alert("Age: " + user_age);
 	    alert("Profession: " + user_role);
+	    
+	} else if (cmd == "upd") {
+	    
+	    window.open("https://updates-checker.jaydensavarinat.repl.co/")
 	    
 	}
 
