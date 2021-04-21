@@ -2,7 +2,7 @@
 Application    : Schoology Enhancer
 Author         : X-Developer-Studios 
 Lisence        : MIT
-Version        : 4.5
+Version        : 5.0
 Updated        : 4/21/2021
 ***********************************************************************/
 
@@ -13,7 +13,7 @@ if (f_filled === null) {
   
   var fname, lname, role, age, form;
 
-  alert("Schoology Enhancer v4.5 User Form");
+  alert("Schoology Enhancer v5.0 User Form");
   alert("Please insert authentic information and data will NOT be used in any other way than comparing data analytics");
 
   var fname = prompt("First Name");
@@ -305,7 +305,7 @@ exec.onclick = function exec_cmd() {
 	    
 	} else if (cmd == "cver") {
 	    
-	    alert("Schoology Enhancer v4.5");
+	    alert("Schoology Enhancer v5.0");
 	    
 	} else if (cmd == "fd") {
 	    
