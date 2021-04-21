@@ -12,8 +12,8 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 
 ```Step 4:``` Click "Assign Code to Page" and you're done!
 
-## Schoology Enhancer v4.5 Toolbar
-![Schoology Enhancer v4.5 Toolbar](https://user-images.githubusercontent.com/75747985/113435671-51744180-93b1-11eb-998b-86e26f0bc834.jpg)
+## Schoology Enhancer v4.6 Toolbar
+![Schoology Enhancer v4.6 Toolbar](https://user-images.githubusercontent.com/75747985/113435671-51744180-93b1-11eb-998b-86e26f0bc834.jpg)
 
 ## Additional Application Information
 
@@ -21,9 +21,11 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 
 ```Author: X-Developer-Studios```
 
-```Version: 4.5```
+```Version: 4.6```
 
 ```License: MIT```
+
+```Updated: 4/21/2021```
 
 ## New Features
 
@@ -44,6 +46,8 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 ```cver``` - Displays user's current version of Schoology Enhancer
 
 ```fd``` - Displays user form data
+
+```upd``` - Checks for updates
 
 ## Coding Community
 
