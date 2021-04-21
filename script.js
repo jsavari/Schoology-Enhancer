@@ -41,58 +41,6 @@ if (f_filled === null) {
   
 }
 
-// Schoology Blue Theme Script
-var theme = document.createElement("BUTTON");
-theme.innerHTML = "Blue Theme";
-document.body.appendChild(theme);
-theme.onclick = function dark() {
-
-	document.body.style.background = "#69c3ff";
-
-};
-
-// Schoology Red Theme Script
-var r_theme = document.createElement("BUTTON");
-r_theme.innerHTML = "Red Theme";
-document.body.appendChild(r_theme);
-r_theme.onclick = function r_dark() {
-
-	document.body.style.background = "#ff6b6b";
-
-};
-
-// Schoology Dark Theme Script
-var d_theme = document.createElement("BUTTON");
-d_theme.innerHTML = "Dark Theme";
-document.body.appendChild(d_theme);
-d_theme.onclick = function d_dark() {
-
-	document.body.style.background = "#202225";
-
-};
-
-// Schoology Custom Theme Script
-var c_theme = document.createElement("BUTTON");
-c_theme.innerHTML = "Custom Theme";
-document.body.appendChild(c_theme);
-c_theme.onclick = function c_bg() {
-
-    var color = prompt("Background Color");
-    document.body.style.background = color;
-
-};
-
-// Schoology Clear Theme Script
-var w_theme = document.createElement("BUTTON");
-w_theme.innerHTML = "Clear Theme";
-document.body.appendChild(w_theme);
-w_theme.onclick = function w_dark() {
-
-	document.body.style.background = "white";
-
-};
-
-
 // Schoology Reminder Script
 var rem = document.createElement("BUTTON");
 rem.innerHTML = "Add Reminder";
@@ -328,36 +276,6 @@ exec.onclick = function exec_cmd() {
 };
 
 // Styling Script
-theme.style.width = '50px'; 
-theme.style.height = '50px'; 
-theme.style.background = '#69c3ff'; 
-theme.style.color = 'White'; 
-theme.style.fontSize = '12px'; 
-
-r_theme.style.width = '50px'; 
-r_theme.style.height = '50px'; 
-r_theme.style.background = '#ff6b6b'; 
-r_theme.style.color = 'White'; 
-r_theme.style.fontSize = '12px'; 
-
-c_theme.style.width = '50px'; 
-c_theme.style.height = '50px'; 
-c_theme.style.background = 'SeaGreen'; 
-c_theme.style.color = 'White'; 
-c_theme.style.fontSize = '12px'; 
-
-d_theme.style.width = '50px'; 
-d_theme.style.height = '50px'; 
-d_theme.style.background = '#202225'; 
-d_theme.style.color = 'White'; 
-d_theme.style.fontSize = '12px'; 
-
-w_theme.style.width = '50px'; 
-w_theme.style.height = '50px'; 
-w_theme.style.background = '#778899'; 
-w_theme.style.color = 'White'; 
-w_theme.style.fontSize = '12px'; 
-
 rem.style.width = '75px'; 
 rem.style.height = '50px'; 
 rem.style.background = '#778899'; 
