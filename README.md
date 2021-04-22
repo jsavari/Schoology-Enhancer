@@ -23,6 +23,8 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 
 ```Application: Schoology Enhancer```
 
+```Edition: School Edition```
+
 ```Author: X-Developer-Studios```
 
 ```Version: 5.1```
