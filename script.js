@@ -1,5 +1,6 @@
 /***********************************************************************
 Application    : Schoology Enhancer
+Edition        : School Edition
 Author         : X-Developer-Studios 
 Lisence        : MIT
 Version        : 5.1
