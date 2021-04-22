@@ -14,7 +14,7 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 
 ```Step 5:``` Install [Code Injector](https://chrome.google.com/webstore/detail/code-injector/edkcmfocepnifkbnbkmlcmegedeikdeb), a local CSS injector
 
-```Step 6:``` Click on the extension and copy and paste [style.css's](https://github.com/X-Developer-Studios/Schoology-Enhancer/blob/main/style.css) contents into the first box and make sure your url bar displays "henrico.schoology.com"
+```Step 6:``` Click on the extension and copy and paste [style.css's](https://github.com/X-Developer-Studios/Schoology-Enhancer/blob/main/style.css) contents into the CSS section and make sure your url bar displays "henrico.schoology.com"
 
 ## Schoology Enhancer v5.0 Toolbar
 ![Schoology Enhancer v5.0 Toolbar](https://user-images.githubusercontent.com/75747985/115615317-cfdf4780-a2bc-11eb-8ff5-9e4d969a768b.jpg)
