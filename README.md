@@ -1,6 +1,6 @@
 # Schoology Enhancer
 
-The Schoology Enhancer is a modern javascript application which has the capability of changing Schoology's them and adding an external toolbar with additional features such as reminders on the bottom of the page! A chrome extension will be released soon. 
+The Schoology Enhancer is a modern javascript application which has the capability of changing Schoology's theme and adding an external toolbar with additional features such as reminders on the bottom of the page! A chrome extension will be released soon. 
 
 ## How to use Schoology Enhancer 
 
