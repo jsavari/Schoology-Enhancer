@@ -3,12 +3,9 @@ Application    : Schoology Enhancer
 Edition        : School Edition
 Author         : X-Developer-Studios 
 Lisence        : MIT
-Version        : 5.1
-Updated        : 4/22/2021
+Version        : 6.0
+Updated        : 05/27/2021
 ***********************************************************************/
-
-// Background Presets
-document.body.style.background = "#36393F";
 
 // User Form
 var f_filled = localStorage.getItem("form_filled");
@@ -16,15 +13,30 @@ var f_filled = localStorage.getItem("form_filled");
 if (f_filled === null) {
   
   var fname, lname, role, age, form;
-
-  alert("Schoology Enhancer v5.1 User Form");
+    
+  alert("Schoology Enhancer v6.0 User Form");
   alert("Please insert authentic information and data will NOT be used in any other way than comparing data analytics");
 
   var fname = prompt("First Name");
   var lname = prompt("Last Name");
   var age = prompt("Age:");
-  var role = prompt("Professtion (ex. student, teacher, etc.)")
-  form = true;
+  var role = prompt("Professtion (ex. student, teacher, etc.)");
+
+  alert("A form will open and be sure to fill out the form and record the verification code somewhere. ");
+  window.open("https://docs.google.com/forms/d/e/1FAIpQLSepkz4oYnG6pHL8W4hh7dDsFkPvFcT4_3Dln4euoPeKqHQTDw/viewform?vc=0&c=0&w=1&flr=0");
+  var ver_code = prompt("Fill out this form and and type in the verification code. \n Form link: https://docs.google.com/forms/d/e/1FAIpQLSepkz4oYnG6pHL8W4hh7dDsFkPvFcT4_3Dln4euoPeKqHQTDw/viewform?vc=0&c=0&w=1&flr=0");
+  var dec_string = atob(ver_code);
+  
+  if (dec_string == "severification") {
+      
+    form = true;
+      
+  } else {
+      
+    form = null;
+    alert("Verification Code Incorrect!");
+      
+  }
 
   var data, u_fname, u_lname, u_age, u_role;
   data = { first_name: fname, last_name: lname, user_age: age, user_role: role };
@@ -41,7 +53,7 @@ if (f_filled === null) {
   
 } else if (f_filled === true) {
   
-  
+  document.body.style.background = "#36393F";
   
 }
 
@@ -273,7 +285,7 @@ exec.onclick = function exec_cmd() {
 	    
 	} else if (cmd == "upd") {
 	    
-	    window.open("https://updates-checker.jaydensavarinat.repl.co/")
+	    window.open("https://updates-checker.jaydensavarinat.repl.co/");
 	    
 	} else if (cmd == "calc") {
 	    
@@ -284,92 +296,14 @@ exec.onclick = function exec_cmd() {
 };
 
 // Styling Script
-rem.style.width = '75px'; 
-rem.style.height = '50px'; 
-rem.style.background = '#2F3136'; 
-rem.style.color = 'White'; 
-rem.style.fontSize = '12px'; 
-
-rem1.style.width = '75px'; 
-rem1.style.height = '50px'; 
-rem1.style.background = '#2F3136'; 
-rem1.style.color = 'White'; 
-rem1.style.fontSize = '12px'; 
-
-rem2.style.width = '75px'; 
-rem2.style.height = '50px'; 
-rem2.style.background = '#2F3136'; 
-rem2.style.color = 'White'; 
-rem2.style.fontSize = '12px'; 
-
-clear.style.width = '75px'; 
-clear.style.height = '50px'; 
-clear.style.background = '#2F3136'; 
-clear.style.color = 'White'; 
-clear.style.fontSize = '12px'; 
-
-clear1.style.width = '75px'; 
-clear1.style.height = '50px'; 
-clear1.style.background = '#2F3136'; 
-clear1.style.color = 'White'; 
-clear1.style.fontSize = '12px'; 
-
-clear2.style.width = '75px'; 
-clear2.style.height = '50px'; 
-clear2.style.background = '#2F3136'; 
-clear2.style.color = 'White'; 
-clear2.style.fontSize = '12px';
-
-clear3.style.width = '75px'; 
-clear3.style.height = '50px'; 
-clear3.style.background = '#2F3136'; 
-clear3.style.color = 'White'; 
-clear3.style.fontSize = '12px'; 
-
-grade.style.width = '75px'; 
-grade.style.height = '50px'; 
-grade.style.background = '#2F3136'; 
-grade.style.color = 'White'; 
-grade.style.fontSize = '12px';
-
-rh.style.width = '75px'; 
-rh.style.height = '50px'; 
-rh.style.background = '#2F3136'; 
-rh.style.color = 'White'; 
-rh.style.fontSize = '12px'; 
-
-p_grade.style.width = '75px'; 
-p_grade.style.height = '50px'; 
-p_grade.style.background = '#2F3136'; 
-p_grade.style.color = 'White'; 
-p_grade.style.fontSize = '12px';
-
-mail.style.width = '75px'; 
-mail.style.height = '50px'; 
-mail.style.background = '#2F3136'; 
-mail.style.color = 'White'; 
-mail.style.fontSize = '12px'; 
-
-drive.style.width = '75px'; 
-drive.style.height = '50px'; 
-drive.style.background = '#2F3136'; 
-drive.style.color = 'White'; 
-drive.style.fontSize = '12px';
-
-cal.style.width = '75px'; 
-cal.style.height = '50px'; 
-cal.style.background = '#2F3136'; 
-cal.style.color = 'White'; 
-cal.style.fontSize = '12px'; 
-
-portal.style.width = '75px'; 
-portal.style.height = '50px'; 
-portal.style.background = '#2F3136'; 
-portal.style.color = 'White'; 
-portal.style.fontSize = '12px';
-
-exec.style.width = '75px'; 
-exec.style.height = '50px'; 
-exec.style.background = '#2F3136'; 
-exec.style.color = 'White'; 
-exec.style.fontSize = '12px'; 
+el_list = [rem, rem1, rem2, clear, clear1, clear2, clear3, grade, rh, p_grade, mail, drive, cal, portal, exec];
+for (i = 0; i < el_list.length ; i++) {
+    
+  el = el_list[i];
+  el.style.width = '75px';
+  el.style.height = '50px';
+  el.style.background = '#2F3136';
+  el.style.color = 'White';
+  el.style.fontSize = '12px';
+  
+}
