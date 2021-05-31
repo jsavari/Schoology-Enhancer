@@ -269,7 +269,7 @@ exec.onclick = function exec_cmd() {
 	    
 	} else if (cmd == "cver") {
 	    
-	    alert("Schoology Enhancer v5.1");
+	    alert("Schoology Enhancer v6.0");
 	    
 	} else if (cmd == "fd") {
 	    
