@@ -31,7 +31,7 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 
 ```License: MIT```
 
-```Updated: 5/27/2021```
+```Updated: 06/07/2021```
 
 ## New Features
 
