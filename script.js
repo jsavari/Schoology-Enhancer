@@ -4,7 +4,7 @@ Edition        : School Edition
 Author         : X-Developer-Studios 
 Lisence        : MIT
 Version        : 6.0
-Updated        : 05/27/2021
+Updated        : 06/07/2021
 ***********************************************************************/
 
 // User Form
@@ -22,22 +22,6 @@ if (f_filled === null) {
   var age = prompt("Age:");
   var role = prompt("Professtion (ex. student, teacher, etc.)");
 
-  alert("A form will open and be sure to fill out the form and record the verification code somewhere. ");
-  window.open("https://docs.google.com/forms/d/e/1FAIpQLSepkz4oYnG6pHL8W4hh7dDsFkPvFcT4_3Dln4euoPeKqHQTDw/viewform?vc=0&c=0&w=1&flr=0");
-  var ver_code = prompt("Fill out this form and and type in the verification code. \n Form link: https://docs.google.com/forms/d/e/1FAIpQLSepkz4oYnG6pHL8W4hh7dDsFkPvFcT4_3Dln4euoPeKqHQTDw/viewform?vc=0&c=0&w=1&flr=0");
-  var dec_string = atob(ver_code);
-  
-  if (dec_string == "severification") {
-      
-    form = true;
-      
-  } else {
-      
-    form = null;
-    alert("Verification Code Incorrect!");
-      
-  }
-
   var data, u_fname, u_lname, u_age, u_role;
   data = { first_name: fname, last_name: lname, user_age: age, user_role: role };
   u_fname = data['first_name'];
@@ -50,6 +34,7 @@ if (f_filled === null) {
   localStorage.setItem("usr_age", u_age);
   localStorage.setItem("usr_role", u_role);
   localStorage.setItem("form_filled", form);
+  f_filled = true;
   
 } else if (f_filled === true) {
   
