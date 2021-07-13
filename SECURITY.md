@@ -2,20 +2,15 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The following table displays the supported versions that endorse the security policy. Form data will only start being collected from v4.0 or higher. 
 
 | Version | Supported          |
 | ------- | ------------------ |
 | 6.0.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
+| 5.x.x   | :white_check_makr: |
+| 4.x.x   | :white_check_mark: |
 | < 4.0   | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+If there is a vulnerability please create an issue stating the problem and if you already have a soution, please merge a pull request.  
