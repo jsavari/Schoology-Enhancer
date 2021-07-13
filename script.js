@@ -292,4 +292,3 @@ for (i = 0; i < el_list.length ; i++) {
   el.style.fontSize = '12px';
   
 }
-
