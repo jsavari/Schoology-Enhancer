@@ -7,7 +7,7 @@ The following table displays the supported versions that endorse the security po
 | Version | Supported          |
 | ------- | ------------------ |
 | 6.0.x   | :white_check_mark: |
-| 5.x.x   | :white_check_makr: |
+| 5.x.x   | :white_check_mark: |
 | 4.x.x   | :white_check_mark: |
 | < 4.0   | :x:                |
 
