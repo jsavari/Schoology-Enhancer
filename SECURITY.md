@@ -13,4 +13,4 @@ The following table displays the supported versions that endorse the security po
 
 ## Reporting a Vulnerability
 
-If there is a vulnerability please create an issue stating the problem and if you already have a soution, please merge a pull request.  
+If there is a vulnerability please create an issue stating the problem and if you already have a soution, please merge a pull request.
