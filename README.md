@@ -60,7 +60,5 @@ If you encounter any vulnerabilities please read [SECURITY.md](https://github.co
 
 ```calc``` - Opens calculator
 
-## Coding Community
-
-Interested in joining our developer team? 
-[Click Here!](https://hangouts.google.com/group/etNDa7hTWieFsTFF8)
+## Collaborator(s)
+- [x] X-Developer-Studios
