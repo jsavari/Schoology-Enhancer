@@ -6,6 +6,7 @@
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/x-developer-studios/schoology-enhancer?style=for-the-badge)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/x-developer-studios/schoology-enhancer?style=for-the-badge)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/x-developer-studios/schoology-enhancer?style=for-the-badge)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/x-developer-studios/schoology-enhancer/main?style=for-the-badge)
 
 # Schoology Enhancer
 
