@@ -1,4 +1,11 @@
-https://img.shields.io/github/v/release/X-Developer-Studios/Schoology-Enhancer?style=for-the-badge
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/X-Developer-Studios/Schoology-Enhancer?style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/X-Developer-Studios/Schoology-Enhancer/total?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/X-Developer-Studios/Schoology-Enhancer?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/X-Developer-Studios/Schoology-Enhancer?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/x-developer-studios/schoology-enhancer?style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/x-developer-studios/schoology-enhancer?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/x-developer-studios/schoology-enhancer?style=for-the-badge)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/x-developer-studios/schoology-enhancer?style=for-the-badge)
 
 # Schoology Enhancer
 
