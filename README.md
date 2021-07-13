@@ -43,7 +43,7 @@ If you encounter any vulnerabilities please read [SECURITY.md](https://github.co
 
 ```License: MIT```
 
-```Updated: 06/07/2021```
+```Updated: 07/13/2021```
 
 ## New Features
 
