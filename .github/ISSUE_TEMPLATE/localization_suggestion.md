@@ -1,51 +1,54 @@
 ---
-name: Feature request
-about: Propose a new feature in the app
-title: ''
-labels: 'Enhancement'
+name: Localization Suggestion
+about: Report a problem or suggested change to Schoology Enhancer's localized content.
+title: '[Localization] '
+labels: 'Area: World-Readiness'
 assignees: ''
-
 ---
-
-
-**Problem Statement**
 <!--
-What problem are we trying to solve? Who’s the target audience? Is there a customer need or pain point we need to remedy? Is there a business goal or metric we are trying to improve? Do we have a hypothesis we want to prove or disprove?
+PLEASE NOTE: 
+We cannot _merge_ any suggested localization changes to our localized resources files. These files are automatically generated from an internal localization process.  Any suggestion submitted this way will be duplicated into our internal localization system, and then closed here.
+
+Alternatively, you can launch feedback-hub://, click on the "Language Community" tab on the left-side of the app, and follow the steps to submit a localization suggestion that way.  (The "Language Community" tab currently will only be visible if your system is running a non-English language).
+
+Before filing a bug
+- Ensure the bug reproduces on the latest version of the app.
+- Search existing issues and make sure this issue is not already filed.
 -->
 
-**Evidence or User Insights**
+**Describe the bug**
+<!-- A clear and concise description of what the bug is. -->
+
+**Steps To Reproduce**
 <!--
-Why should we do this? Potential sources of data: Feedback Hub, other GitHub issues, other anecdotes from listening to customers in person or online, request from another team, telemetry data, user research, market or competitive research
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 -->
 
-**Proposal**
+**Expected behavior**
+<!-- A clear and concise description of what you expected to happen. -->
+
+**Screenshots**
+<!-- If applicable, add screenshots to help explain your problem. -->
+
+**Device and Application Information**
+ - OS Build:
+ - Architecture:
+ - Application Version:
+ - Region: 
+ - Dev Version Installed: 
+ 
 <!--
-How will the solution/feature help us solve the problem? How will it meet the target audience’s needs? If there are business goals or metrics, how does this improve them?
+Run the following commands in Powershell and copy/paste the output.
+" - OS Build: $([Environment]::OSVersion.Version)"
+" - Architecture: $((Get-AppxPackage -Name Microsoft.WindowsCalculator).Architecture)"
+" - Application Version: $((Get-AppxPackage -Name Microsoft.WindowsCalculator).Version)"
+" - Region: $((Get-Culture).Name)"
+" - Dev Version Installed: $($null -ne (Get-AppxPackage -Name Microsoft.WindowsCalculator.Dev))"
 -->
 
-**Goals**
-<!--
-What you want to accomplish with this feature. Typical examples include
-"User Can *perform some task*"
--->
-
-**Non-Goals**
-<!--
-Things we are explicitly not doing or supporting or that are out of scope, including reasons why.
--->
-
-**Low-Fidelity Concept**
-<!--
-Show as much of the experience as needed to explain the idea. This can be as simple as a napkin drawing but can also be a code prototype, or a design comp. Keep it simple at this stage, as it can be refined later during the pre-production stage.
--->
-
-**Requested Assignment**
-<!--
-Some people just want to suggest a feature and let someone else implement it.
-Other people want to not only suggest a feature, but implement it as well.
-Both scenarios are completely ok. We just want to know which one it is.
-We are likely to prioritize the review of feature requests if they already have someone who can implement them.
-Please indicate which bucket you fall into by keeping one and removing the other.
--->
-If possible, I would like to implement this.
-I'm just suggesting this idea.  I don't want to implement it.
+**Additional context**
+<!-- Add any other context about the problem here. -->
