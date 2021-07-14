@@ -2,7 +2,7 @@
 name: Bug report
 about: Report a problem with Schoology Enhancer
 title: ''
-labels: ''
+labels: 'bug'
 assignees: ''
 
 ---
