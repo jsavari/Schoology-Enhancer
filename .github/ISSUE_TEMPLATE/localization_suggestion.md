@@ -2,7 +2,7 @@
 name: Localization Suggestion
 about: Report a problem or suggested change to Schoology Enhancer's localized content.
 title: '[Localization] '
-labels: 'Area: World-Readiness'
+labels: 'enhancement, localization'
 assignees: ''
 ---
 <!--
