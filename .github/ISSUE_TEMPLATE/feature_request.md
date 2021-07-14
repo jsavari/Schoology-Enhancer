@@ -2,7 +2,7 @@
 name: Feature request
 about: Propose a new feature in the app
 title: ''
-labels: 'Enhancement'
+labels: 'enhancement'
 assignees: ''
 
 ---
