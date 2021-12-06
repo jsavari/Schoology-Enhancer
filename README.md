@@ -9,7 +9,7 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 
 ## Usage
 
-```Step 1:``` Install a local javascript injector, I personally recommend [Codify](https://chrome.google.com/webstore/detail/codify-the-code-adder/fdhkolbghmfidicmkaidnhpjcoeafojl?hl=en-GB)
+```Step 1:``` Install a local javascript injector (Search up "js injector on chrome webstore")
 
 ```Step 2:``` Click on the extension and in the "Add Code" tab, copy and paste the code located in [script.js](https://github.com/X-Developer-Studios/Schoology-Enhancer/blob/main/src/script.js)
 
