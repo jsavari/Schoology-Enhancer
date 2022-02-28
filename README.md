@@ -1,4 +1,4 @@
-![GitHub all releases](https://img.shields.io/github/downloads/X-Developer-Studios/Schoology-Enhancer/total?style=for-the-badge)
+
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/X-Developer-Studios/Schoology-Enhancer?style=for-the-badge)
 ![Lines of code](https://img.shields.io/tokei/lines/github/X-Developer-Studios/Schoology-Enhancer?style=for-the-badge)
 
