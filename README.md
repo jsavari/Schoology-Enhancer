@@ -1,4 +1,3 @@
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/X-Developer-Studios/Schoology-Enhancer?style=for-the-badge)
 ![GitHub all releases](https://img.shields.io/github/downloads/X-Developer-Studios/Schoology-Enhancer/total?style=for-the-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/X-Developer-Studios/Schoology-Enhancer?style=for-the-badge)
 ![Lines of code](https://img.shields.io/tokei/lines/github/X-Developer-Studios/Schoology-Enhancer?style=for-the-badge)
@@ -9,7 +8,7 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 
 ## Usage
 
-```Step 1:``` Install a local javascript injector (Search up "js injector on chrome webstore")
+```Step 1:``` Install a local javascript injector (Search up 'js injector' on chrome webstore)
 
 ```Step 2:``` Click on the extension and in the "Add Code" tab, copy and paste the code located in [script.js](https://github.com/X-Developer-Studios/Schoology-Enhancer/blob/main/src/script.js)
 
@@ -21,8 +20,8 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 
 ```Step 6:``` Click on the extension and copy and paste [style.css's](https://github.com/X-Developer-Studios/Schoology-Enhancer/blob/main/src/style.css) contents into the CSS section and make sure your url bar displays "henrico.schoology.com"
 
-## Schoology Enhancer v6.0 Toolbar
-![Schoology Enhancer v6.0 Toolbar](https://user-images.githubusercontent.com/75747985/115615317-cfdf4780-a2bc-11eb-8ff5-9e4d969a768b.jpg)
+## Schoology Enhancer v6.0.1 Toolbar
+![Schoology Enhancer v6.0.1 Toolbar](https://user-images.githubusercontent.com/75747985/115615317-cfdf4780-a2bc-11eb-8ff5-9e4d969a768b.jpg)
 
 ## Security
 If you encounter any vulnerabilities please read [SECURITY.md](https://github.com/X-Developer-Studios/Schoology-Enhancer/blob/main/SECURITY.md)
@@ -33,11 +32,11 @@ If you encounter any vulnerabilities please read [SECURITY.md](https://github.co
 
 ```Author: X-Developer-Studios```
 
-```Version: 6.0```
+```Version: 6.0.1```
 
 ```License: MIT```
 
-```Updated: 07/13/2021```
+```Updated: 02/27/2022```
 
 ## New Features
 
@@ -62,6 +61,8 @@ If you encounter any vulnerabilities please read [SECURITY.md](https://github.co
 ```upd``` - Checks for updates
 
 ```calc``` - Opens calculator
+
+```spolicy``` - Opens security policy
 
 ## Collaborator(s)
 - [x] G0D Developer
