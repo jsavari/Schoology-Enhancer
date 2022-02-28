@@ -31,8 +31,6 @@ If you encounter any vulnerabilities please read [SECURITY.md](https://github.co
 
 ```Application: Schoology Enhancer```
 
-```Edition: School Edition```
-
 ```Author: X-Developer-Studios```
 
 ```Version: 6.0```
