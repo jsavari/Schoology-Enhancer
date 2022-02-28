@@ -64,4 +64,4 @@ If you encounter any vulnerabilities please read [SECURITY.md](https://github.co
 ```calc``` - Opens calculator
 
 ## Collaborator(s)
-- [x] X-Developer-Studios
+- [x] G0D Developer
