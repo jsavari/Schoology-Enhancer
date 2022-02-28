@@ -1,10 +1,10 @@
 /***********************************************************************
 Application    : Schoology Enhancer
 Edition        : School Edition
-Author         : X-Developer-Studios 
+Author         : G0D Developer 
 Lisence        : MIT
 Version        : 6.0
-Updated        : 07/13/2021
+Updated        : 02/27/2022
 ***********************************************************************/
 
 // User Form
@@ -250,7 +250,7 @@ exec.onclick = function exec_cmd() {
 	    
 	} else if (cmd == "src") {
 	    
-	    window.open("https://github.com/X-Developer-Studios/Schoology-Enhancer");
+	    window.open("https://github.com/G0D-Developer/Schoology-Enhancer");
 	    
 	} else if (cmd == "cver") {
 	    
@@ -276,7 +276,10 @@ exec.onclick = function exec_cmd() {
 	    
 	    window.open("https://calculator.jaydensavarinat.repl.co/");
 	    
-	}
+	} else if (cmd == "spolicy") {
+    
+        window.open("https://github.com/G0D-Developer/Schoology-Enhancer/blob/main/SECURITY.md");
+    }
 
 };
 
