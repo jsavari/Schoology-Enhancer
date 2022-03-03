@@ -154,16 +154,6 @@ clear.onclick = function clear() {
 
 };
 
-// Raider Hub 
-var rh = document.createElement("BUTTON");
-rh.innerHTML = "Raider Home";
-document.body.appendChild(rh);
-rh.onclick = function dark() {
-
-	window.open("https://sites.google.com/henrico.k12.va.us/raiderreadydashboard/home");
-
-};
-
 // PowerTeacher 
 var grade = document.createElement("BUTTON");
 grade.innerHTML = "Power Teacher";
