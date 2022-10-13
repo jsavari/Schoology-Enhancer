@@ -64,5 +64,5 @@ If you encounter any vulnerabilities please read [SECURITY.md](https://github.co
 
 ```spolicy``` - Opens security policy
 
-## Collaborator(s)
-- [x] G0D Developer
+## Made with ❤️ by Jayden Savarinathan (G0D-Developer)
+
