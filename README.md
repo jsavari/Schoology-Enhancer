@@ -29,7 +29,7 @@ If you encounter any vulnerabilities please read [SECURITY.md](https://github.co
 
 ```Application: Schoology Enhancer```
 
-```Author: X-Developer-Studios```
+```Author: jsavari```
 
 ```Version: 6.0.1```
 
@@ -63,5 +63,5 @@ If you encounter any vulnerabilities please read [SECURITY.md](https://github.co
 
 ```spolicy``` - Opens security policy
 
-## Made with ❤️ by Jayden Savarinathan (G0D-Developer)
+## Made with ❤️ by Jayden Savarinathan (jsavari)
 
