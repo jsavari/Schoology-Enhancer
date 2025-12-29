@@ -1,5 +1,5 @@
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/G0D-Developer/Schoology-Enhancer?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jsavari/Schoology-Enhancer?style=for-the-badge)
 
 # Schoology Enhancer
 
