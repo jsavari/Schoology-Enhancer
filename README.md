@@ -32,11 +32,11 @@ The Schoology Enhancer is a modern javascript application which has the capabili
 
 ```Updated: 02/27/2022```
 
-## New Features
+## New
 
 ```Cmd Exec```
 
-## Cmd Exec Commands
+## Commands
 
 ```crash``` - Crashes Schoology
 
